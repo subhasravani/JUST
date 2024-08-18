@@ -1,0 +1,43 @@
+/* App.css */
+
+/* Home Page Background */
+.home-page {
+  background-color: #f0f8ff; /* Light Alice Blue */
+  padding: 20px;
+  min-height: 100vh;
+}
+
+/* Confirmation Page Background */
+.confirmation-page {
+  background-color: #dff0d8; /* Light Green */
+  padding: 20px;
+  min-height: 100vh;
+}
+
+/* Past Bookings Background */
+.past-bookings-page {
+  background-color: #fff3e6; /* Light Orange */
+  padding: 20px;
+  min-height: 100vh;
+}
+
+/* Custom Styles for Modal and Card */
+.modal-body {
+  padding: 20px;
+}
+
+.card-img {
+  height: 150px;
+  object-fit: cover;
+}
+/* Custom styles for Navbar links */
+.nav-link-custom {
+  margin: 0 20px; /* Add spacing between the links */
+  font-size: 1.2rem; /* Increase font size */
+  transition: color 0.3s ease, transform 0.3s ease; /* Add smooth animation */
+}
+
+.nav-link-custom:hover {
+  color: #00bfff; /* Change color on hover */
+  transform: scale(1.1); /* Slightly enlarge the link on hover */
+}
